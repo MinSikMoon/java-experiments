@@ -14,7 +14,7 @@ public class RecCalculator implements Calculator{
                 return num * factorial(num-1);
         }finally{
             long end = System.currentTimeMillis();
-            System.out.printf("ImpeCalculator(%d) 실행시간 : %d\n", num, (end-start));
+            System.out.println("recursive 실행중");
             return num;
         }
     }
